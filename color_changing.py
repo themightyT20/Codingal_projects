@@ -1,4 +1,4 @@
-#made by themightyT20/taimoor bin saud
+#made by themightyT20
 import pygame
 import random
 
@@ -35,7 +35,7 @@ class Sprite(pygame.sprite.Sprite):
 def change_background_color():
   global bg_color
   bg_color=random.choice([BLUE,LIGHT_BLUE,DARK_BLUE])
-#made by themightyT20/taimoor bin saud  
+#made by themightyT20  
 
 all_sprite_list=pygame.sprite.Group()
 sp1=Sprite(WHITE,20,30)
@@ -62,3 +62,4 @@ while not exit:
   pygame.display.flip()
   clock.tick(240)
 pygame.quit()
+#made by themightyT20 
